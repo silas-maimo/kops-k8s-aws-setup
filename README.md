@@ -49,7 +49,9 @@
  
  
  sudo chmod +x ./kubectl
+ 
  sudo mv ./kubectl /usr/local/bin/kubectl
+ 
  aws s3 mb s3://nubonglegah.k8.local
  aws s3 ls
 
